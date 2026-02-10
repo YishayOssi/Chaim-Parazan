@@ -10,24 +10,11 @@
 
 
 .aaa { 
-    margin-right: 165px;
+    display: block;       /* הופך את הסרטון לבלוק כדי שהמרג'ין יעבוד */
+    margin: 30px auto;    /* זה הקסם: ממרכז אוטונומית מימין ומשמאל */
     border-radius: 150px;
-    margin: auto 30;
-    /* text-align: center; */
+    /* מחקנו את ה-margin-right שדחף אותו הצידה */
 }
-
-
-.story {
-    font-size: 20px;        
-    line-height: 1.8;        
-    font-weight: 500;        
-    max-width: 800px;     
-    margin: 0 auto;        
-    color: #333333;          
-    text-align: right;      
-    padding: 0 20px;         
-}
-
 
 
 .link1 {
@@ -67,10 +54,23 @@
 
 
 .center{
-    background-color: rgba(192, 137, 55, 0.219);
-    /* padding-right: 30%; */
-    width: 800px;
-    border: solid black 4px;
-    margin: 0 auto;
+  background-color: rgb(228, 205, 183);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-top: 20px;
 }
 
+.story-container {
+        background-color: rgb(228, 205, 183);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .sss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
